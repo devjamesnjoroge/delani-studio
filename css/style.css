@@ -36,3 +36,7 @@
 #mouse:hover {
   transform: scale(1.1) translateY(-10px);
 }
+
+.container-fluid p {
+  line-height: 3rem;
+}
