@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .hero {
   background-position: center;
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -43,6 +47,7 @@
 }
 
 .services {
+  overflow-x: hidden;
   padding: 15vh 0;
   position: relative;
   opacity: 1;
@@ -56,8 +61,25 @@
   background-color: rgb(68, 56, 0);
   height: 60vh;
   width: 100vw;
+  left: 0;
   position: absolute;
   content: " ";
   content-visibility: visible;
   opacity: 0.15;
+}
+
+.column {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.dev {
+  position: relative;
+  margin-left: 10vw;
+}
+
+.design-p,
+.dev-p,
+.product-p {
+  display: none;
 }
