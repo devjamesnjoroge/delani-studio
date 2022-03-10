@@ -98,7 +98,7 @@ body {
   color: aliceblue;
   z-index: 1;
   transition: all 1s ease-in-out;
-  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  clip-path: polygon(0 0, 0 0, 100% 100%, 38% 38%);
 }
 
 .inner-overlay {

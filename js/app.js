@@ -33,7 +33,10 @@ $(document).ready(function () {
     );
   });
   $("#work1").mouseleave(function () {
-    $("#work1-overlay").css("clipPath", "polygon(0 0, 0 0, 0 100%, 0% 100%)");
+    $("#work1-overlay").css(
+      "clipPath",
+      "polygon(0 0, 0 0, 100% 100%, 38% 38%)"
+    );
   });
   $("#work2").mouseenter(function () {
     $("#work2-overlay").css(
@@ -42,7 +45,10 @@ $(document).ready(function () {
     );
   });
   $("#work2").mouseleave(function () {
-    $("#work2-overlay").css("clipPath", "polygon(0 0, 0 0, 0 100%, 0% 100%)");
+    $("#work2-overlay").css(
+      "clipPath",
+      "polygon(0 0, 0 0, 100% 100%, 38% 38%)"
+    );
   });
   $("#work3").mouseenter(function () {
     $("#work3-overlay").css(
@@ -51,7 +57,10 @@ $(document).ready(function () {
     );
   });
   $("#work3").mouseleave(function () {
-    $("#work3-overlay").css("clipPath", "polygon(0 0, 0 0, 0 100%, 0% 100%)");
+    $("#work3-overlay").css(
+      "clipPath",
+      "polygon(0 0, 0 0, 100% 100%, 38% 38%)"
+    );
   });
   $("#work4").mouseenter(function () {
     $("#work4-overlay").css(
@@ -60,7 +69,10 @@ $(document).ready(function () {
     );
   });
   $("#work4").mouseleave(function () {
-    $("#work4-overlay").css("clipPath", "polygon(0 0, 0 0, 0 100%, 0% 100%)");
+    $("#work4-overlay").css(
+      "clipPath",
+      "polygon(0 0, 0 0, 100% 100%, 38% 38%)"
+    );
   });
   $("#work5").mouseenter(function () {
     $("#work5-overlay").css(
@@ -69,7 +81,10 @@ $(document).ready(function () {
     );
   });
   $("#work5").mouseleave(function () {
-    $("#work5-overlay").css("clipPath", "polygon(0 0, 0 0, 0 100%, 0% 100%)");
+    $("#work5-overlay").css(
+      "clipPath",
+      "polygon(0 0, 0 0, 100% 100%, 38% 38%)"
+    );
   });
   $("#work6").mouseenter(function () {
     $("#work6-overlay").css(
@@ -78,7 +93,10 @@ $(document).ready(function () {
     );
   });
   $("#work6").mouseleave(function () {
-    $("#work6-overlay").css("clipPath", "polygon(0 0, 0 0, 0 100%, 0% 100%)");
+    $("#work6-overlay").css(
+      "clipPath",
+      "polygon(0 0, 0 0, 100% 100%, 38% 38%)"
+    );
   });
   $("#work7").mouseenter(function () {
     $("#work7-overlay").css(
@@ -87,7 +105,10 @@ $(document).ready(function () {
     );
   });
   $("#work7").mouseleave(function () {
-    $("#work7-overlay").css("clipPath", "polygon(0 0, 0 0, 0 100%, 0% 100%)");
+    $("#work7-overlay").css(
+      "clipPath",
+      "polygon(0 0, 0 0, 100% 100%, 38% 38%)"
+    );
   });
   $("#work8").mouseenter(function () {
     $("#work8-overlay").css(
@@ -96,6 +117,9 @@ $(document).ready(function () {
     );
   });
   $("#work8").mouseleave(function () {
-    $("#work8-overlay").css("clipPath", "polygon(0 0, 0 0, 0 100%, 0% 100%)");
+    $("#work8-overlay").css(
+      "clipPath",
+      "polygon(0 0, 0 0, 100% 100%, 38% 38%)"
+    );
   });
 });
