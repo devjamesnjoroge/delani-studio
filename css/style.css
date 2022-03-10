@@ -78,4 +78,19 @@ body {
 .product-p {
   display: none;
   max-height: 30vh;
+  width: 25vw;
+}
+
+@media screen and (max-width: 992px) {
+  .design-p,
+  .dev-p,
+  .product-p {
+    width: 60vw;
+    margin: 3.5vh 0;
+  }
+  .design,
+  .dev,
+  .product {
+    margin: 3.5vh 0;
+  }
 }
