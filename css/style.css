@@ -37,6 +37,27 @@
   transform: scale(1.1) translateY(-10px);
 }
 
-.container-fluid p {
+.container-fluid p,
+.services p {
   line-height: 3rem;
+}
+
+.services {
+  padding: 15vh 0;
+  position: relative;
+  opacity: 1;
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+}
+
+.services::before {
+  background-color: rgb(68, 56, 0);
+  height: 60vh;
+  width: 100vw;
+  position: absolute;
+  content: " ";
+  content-visibility: visible;
+  opacity: 0.15;
 }
