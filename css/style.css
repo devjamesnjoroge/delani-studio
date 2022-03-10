@@ -20,6 +20,19 @@
   font-size: 48px;
 }
 
+#logo {
+  cursor: pointer;
+}
+
+#logo:hover {
+  transform: scale(0.8);
+}
+
 #mouse {
   margin-top: 20vh;
+  cursor: pointer;
+}
+
+#mouse:hover {
+  transform: scale(1.1) translateY(-10px);
 }
