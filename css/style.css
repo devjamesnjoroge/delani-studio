@@ -73,13 +73,9 @@ body {
   cursor: pointer;
 }
 
-.dev {
-  position: relative;
-  margin-left: 10vw;
-}
-
 .design-p,
 .dev-p,
 .product-p {
   display: none;
+  max-height: 30vh;
 }
