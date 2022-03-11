@@ -156,6 +156,14 @@ input:focus {
   border: 1px solid white;
 }
 
+footer {
+  height: 30vh;
+}
+
+.social-icons {
+  width: 50vw;
+}
+
 @media screen and (max-width: 992px) {
   .design-p,
   .dev-p,
@@ -170,7 +178,7 @@ input:focus {
   }
   .work {
     width: 42vw;
-    height: 50vh;
+    height: auto;
   }
   .work-overlay {
     width: 42vw;
@@ -199,6 +207,10 @@ input:focus {
     height: 35vh;
     width: 70vw;
   }
+
+  .social-icons {
+    width: 75vw;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -207,7 +219,10 @@ input:focus {
   }
   .work-overlay {
     width: 70vw;
-    height: 50vh;
+    height: 45vh;
     margin-left: 5vw;
+  }
+  .social-icons {
+    width: 100vw;
   }
 }
