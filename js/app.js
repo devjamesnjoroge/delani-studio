@@ -123,3 +123,14 @@ $(document).ready(function () {
     );
   });
 });
+
+//FORM
+$("form").submit(function () {
+  event.preventDefault();
+  let name = $("#name").val();
+  let email = $("#email").val();
+  alert(
+    name + ", your message has been received. You will receive an email shortly"
+  );
+  location.reload(true);
+});
