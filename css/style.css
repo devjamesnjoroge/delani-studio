@@ -182,7 +182,7 @@ footer {
   }
   .work-overlay {
     width: 42vw;
-    height: 50vh;
+    height: 40vh;
     background-color: rgba(4, 39, 38, 0.75);
     /* position: absolute; */
     margin: 2vh 0;
@@ -219,7 +219,7 @@ footer {
   }
   .work-overlay {
     width: 70vw;
-    height: 45vh;
+    height: 30vh;
     margin-left: 5vw;
   }
   .social-icons {
