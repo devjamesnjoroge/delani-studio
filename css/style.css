@@ -164,6 +164,16 @@ footer {
   width: 50vw;
 }
 
+.socials {
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.socials:hover {
+  transform: scale(0.8);
+  transition: all 0.5s ease-in-out;
+}
+
 @media screen and (max-width: 992px) {
   .design-p,
   .dev-p,
