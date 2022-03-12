@@ -130,7 +130,10 @@ $("form").submit(function () {
   let name = $("#name").val();
   let email = $("#email").val();
   alert(
-    name + ", your message has been received. You will receive an email shortly"
+    name +
+      ", your message has been received. You will be directed to subscribe to our newsletter"
   );
-  location.reload(true);
+  window.open(
+    "https://gmail.us20.list-manage.com/subscribe/post?u=a565421e0048809ceab6ba6a7&id=5a15b2a2ba"
+  );
 });
